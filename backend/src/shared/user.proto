@@ -1,0 +1,17 @@
+syntax = "proto3";
+package qt;
+
+message User {
+  string id = 1;
+  string email = 2;
+  string role = 3;
+  string status = 4;
+  string createdAt = 5;  // ISO string
+  bytes  emailHash = 6;  // SHA-384 digest bytes
+  bytes  signature = 7;  // signature over digest
+  bytes  publicKey = 8;  // Ed25519 / ECDSA public key
+}
+
+message UserList {
+  repeated User users = 1;
+}
