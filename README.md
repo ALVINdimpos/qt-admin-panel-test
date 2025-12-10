@@ -9,8 +9,6 @@ A comprehensive mini admin panel built with React + TypeScript frontend and Node
 - Frontend (Render): [Hosted Frontend](https://qt-admin-panel-test-1.onrender.com/)  
 - Backend API (Render): [Hosted Backend](https://qt-admin-panel-test.onrender.com)
 
-When hosting your own build, ensure the frontend points to the correct backend base URL via `VITE_API_URL`.
-
 ## 🚀 Features Implemented
 
 ### ✅ All Mandatory Requirements Met
